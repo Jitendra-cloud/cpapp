@@ -1,4 +1,4 @@
-_schema-version: 3.3.0
+_schema-version: '3.1'
 ID: cpapp
 version: 1.0.0
 description: "A simple CAP project."
@@ -17,8 +17,6 @@ modules:
     path: gen/srv
     parameters:
       buildpack: nodejs_buildpack
-      readiness-health-check-type: http
-      readiness-health-check-http-endpoint: /health
     build-parameters:
       builder: npm
     provides:
