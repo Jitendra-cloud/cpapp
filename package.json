@@ -8,7 +8,7 @@
   "dependencies": {
     "@sap/cds": "^7",
     "express": "^4",
-    "@cap-js/hana": "^1"
+    "@sap/cds-hana": "^2"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -47,9 +47,6 @@
       "[production]": {
         "db": "hana"
       }
-    },
-    "sql": {
-      "native_hana_associations": false
     }
   }
 }

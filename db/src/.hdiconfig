@@ -131,9 +131,6 @@
     },
     "txt": {
       "plugin_name": "com.sap.hana.di.copyonly"
-    },
-    "hdbeshconfig": {
-      "plugin_name": "com.sap.hana.di.eshconfig"
     }
   }
 }
