@@ -1,18 +1,18 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Oct 23 2024 15:13:20 GMT+0530 (India Standard Time)|
+|**Generation Date and Time**<br>Tue Jan 30 2024 10:37:20 GMT+0100 (Central European Standard Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
-|**App Generator Version**<br>1.15.1|
+|**App Generator Version**<br>1.12.2|
 |**Generation Platform**<br>Visual Studio Code|
 |**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local Cap|
-|**Service URL**<br>http://localhost:4004/odata/v4/service/risk/|
+|**Service URL**<br>http://localhost:4004/odata/v4/service/risk/
 |**Module Name**<br>risks|
 |**Application Title**<br>Risks|
 |**Namespace**<br>ns|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.129.2|
+|**UI5 Version**<br>1.120.4|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|
@@ -20,7 +20,7 @@
 
 ## risks
 
-An SAP Fiori application.
+Risks
 
 ### Starting the generated app
 

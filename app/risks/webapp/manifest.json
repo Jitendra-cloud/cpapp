@@ -1,5 +1,5 @@
 {
-  "_version": "1.65.0",
+  "_version": "1.59.0",
   "sap.app": {
     "id": "ns.risks",
     "type": "application",
@@ -12,8 +12,8 @@
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
-      "version": "1.15.1",
-      "toolsId": "beb8f4a2-a59d-4b91-b4c3-a18949bd4af1"
+      "version": "1.12.2",
+      "toolsId": "cefc73fb-a7bd-4312-9779-0d474732632c"
     },
     "dataSources": {
       "mainService": {
@@ -45,10 +45,11 @@
   "sap.ui5": {
     "flexEnabled": true,
     "dependencies": {
-      "minUI5Version": "1.129.2",
+      "minUI5Version": "1.120.4",
       "libs": {
         "sap.m": {},
         "sap.ui.core": {},
+        "sap.ushell": {},
         "sap.fe.templates": {}
       }
     },
@@ -67,6 +68,7 @@
         "dataSource": "mainService",
         "preload": true,
         "settings": {
+          "synchronizationMode": "None",
           "operationMode": "Server",
           "autoExpandSelect": true,
           "earlyRequests": true
@@ -81,7 +83,6 @@
       "css": []
     },
     "routing": {
-      "config": {},
       "routes": [
         {
           "pattern": ":?query:",
@@ -107,13 +108,6 @@
                 "Risks": {
                   "detail": {
                     "route": "RisksObjectPage"
-                  }
-                }
-              },
-              "controlConfiguration": {
-                "@com.sap.vocabularies.UI.v1.LineItem": {
-                  "tableSettings": {
-                    "type": "ResponsiveTable"
                   }
                 }
               }
