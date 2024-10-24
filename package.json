@@ -7,10 +7,9 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
+    "express": "^4",
     "@sap/cds-hana": "^2",
     "@sap/xssec": "^3",
-    "express": "^4",
-    "mbt": "^1.2.33",
     "passport": "^0"
   },
   "devDependencies": {
@@ -19,7 +18,7 @@
     "@sap/ux-specification": "^1.120.2"
   },
   "engines": {
-    "node": "20.18.0"
+    "node": "^18"
   },
   "scripts": {
     "start": "cds-serve",
